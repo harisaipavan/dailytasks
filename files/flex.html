@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            background-color: aqua;
+            
+        }
+        .hi{
+            margin: 10px;
+            padding: 20px;
+            border: 2px dashed;
+            background-color: blueviolet;
+        }
+        .grids{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap:25px;
+            padding: 10px;
+            background-color: brown;
+        }
+        .hii{
+            margin: 10px;
+            padding: 20px;
+            border: 2px dashed;
+            background-color: blueviolet;
+        }
+        .hiis{
+            margin: 10px;
+            padding: 20px;
+            border: 2px dashed;
+            background-color: blueviolet;
+            grid-column: 1/3;
+        }
+    </style>
+</head>
+<body>
+    <h2>Flex concepts</h2>
+    <div class="container">
+        <div class="hi" >1</div>
+        <div class="hi">2</div>
+        <div class="hi">3</div>
+        <div class="hi">4</div>
+        <div  class="hi">5</div>
+    </div>
+
+    <h2>Grid concepts</h2>
+    <div class="grids">
+        <div class="hiis" >1</div>
+        <div class="hii">2</div>
+        <div class="hii">3</div>
+        <div class="hii">4</div>
+        <div class="hii">5</div>
+        <div class="hii">6</div>
+    </div>
+        
+</body>
+</html>

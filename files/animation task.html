@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    width:50px;
+
+  }
+       .box{
+        border:2px solid black;
+        width:100px;
+        height:100px;
+        text-align: center;
+        }
+       .box:hover {
+    background-color: var(--color);
+  }
+       .box:hover span{
+        visibility:hidden;
+       }
+    </style>
+</head>
+<body>
+   <div class="container">
+
+    <div class="box" style="--color:aqua"><span>aquacolr</span></div>
+   <div class="box" style="--color:rgb(229, 163, 21)"><span>orange</span></div>
+   <div class="box" style="--color:red"><span></span>red</span></div>
+   <div class="box" style="--color:green"><span>green</span></div>
+   <div class="box" style="--color:pink"><span>pink</span></div>
+   <div class="box" style="--color:violet"><span>violet</span></div>
+   <div class="box" style="--color:black"><span></span>black</span></div>
+   <div class="box" style="--color:grey"><span>grey</span></div>
+
+   </div>
+</body>
+</html>
